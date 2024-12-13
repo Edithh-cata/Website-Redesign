@@ -241,7 +241,7 @@ nav {
 }
 
 
-.yamaha124cc {
+.yamaha124cc{
   margin-top: -60px;
   width: 295px;
   transition: transform 0.3s ease, top 0.3s ease; /* Smooth transition */
@@ -1205,6 +1205,104 @@ footer2 .sponsors img:hover {
 @media (width < 600px) {
   .explore__header {
     flex-direction: column;
+  }
+
+  .yamaha124cc{
+    margin-top: -60px;
+    width: 295px;
+    margin-left: 120px;
+    transition: transform 0.3s ease, top 0.3s ease; /* Smooth transition */
+    position: relative; /* To move the image upwards */
+  }
+  
+  .yamaha124cc:hover {
+    margin-top: -60px;
+    width: 295px;
+    transform: scale(1.1) translateY(-10px); /* Zoom out a bit and move up */
+  }
+
+  .footer__col > a {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    transition: 0.3s;
+    margin-left: 50px;
+  }
+  
+  .footer__col > a:hover {
+    color: var(--secondary-color);
+  }
+
+  .explore__card1 {
+    padding: 1rem;
+    background-color: var(--primary-color-light);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .explore__card1:hover {
+    background-color: var(--primary-color-extra-light);
+    border-color: var(--secondary-color);
+  }
+  
+  .explore__card1 span {
+    display: inline-block;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: var(--white);
+    background-color: var(--secondary-color-dark);
+    border-radius: 5px;
+  }
+  
+  .explore__card1 h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-left: 125px;
+  }
+  
+  .explore__card1 p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+  
+  .explore__card1 a {
+    color: var(--white);
+    transition: 0.3s;
+    margin-left: 210px;
+  }
+  
+  .explore__card1 a:hover {
+    color: var(--secondary-color);
+  }
+
+  .section__header {
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-left: -350px;
+  }
+
+  .reviews {
+    width: 350px;
+    margin-left: 18px;
+    margin-top: -3.2rem;
+  }
+
+  .btn1 {
+    padding: 0.5rem 0.5rem;
+    outline: none;
+    border: none;
+    font-size: 0.82rem;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--text-light);
   }
 
   .explore__grid {

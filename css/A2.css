@@ -702,6 +702,55 @@ footer2 .sponsors img:hover {
     flex-direction: column;
   }
 
+  .footer__col > a {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    transition: 0.3s;
+    margin-left: 70px;
+  }
+
+  .btn2 {
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 115px;
+    margin-top: -80px;
+  }
+
+  .price__card {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color-light);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-top: 175px;
+  margin-left: -415px;
+  margin-right: 355px;
+}
+
+  .mod1 {
+    margin-left: -340px;
+    width: 355px;
+    margin-top: 250px;
+    margin-bottom: -35px;
+  }
+
+  .mod2 {
+    margin-left: -1000px;
+    margin-top: -700px;
+    width: 355px;
+  }
+
+
   .explore__grid {
     grid-template-columns: repeat(1, 1fr);
   }

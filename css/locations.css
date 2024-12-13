@@ -1199,6 +1199,25 @@ footer2 .sponsors img:hover {
     flex-direction: column;
   }
 
+  .loc1 {
+    margin-left: -5px;
+    width: 370px;
+  }
+
+  .loc2 {
+    margin-top: -10px;
+    margin-left: -5px;
+    width: 370px;
+  }
+
+  .footer__col > a {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    transition: 0.3s;
+    margin-left: 70px;
+  }
+
   .explore__grid {
     grid-template-columns: repeat(1, 1fr);
   }

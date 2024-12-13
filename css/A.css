@@ -588,6 +588,7 @@ nav {
   color: var(--text-light);
   transition: 0.3s;
   margin-left: 500px;
+  margin-right: 20px;
 }
 
 .footer__col > a:hover {
@@ -703,6 +704,104 @@ footer2 .sponsors img:hover {
     flex-direction: column;
   }
 
+  .footer__col > a {
+    display: block;
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    transition: 0.3s;
+    margin-left: 70px;
+  }
+
+  .btn2 {
+    padding: 1rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 115px;
+    margin-top: -80px;
+  }
+
+  .price__card {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color-light);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-top: 120px;
+  margin-left: -315px;
+  margin-right: -5px;
+}
+
+.price__card2 {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color-light);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-left: -315px;
+  margin-right: -5px;
+}
+
+.price__card2:hover {
+  background-color: var(--primary-color-extra-light);
+  border-color: var(--secondary-color);
+}
+
+.price__card__content2 {
+  flex: 1;
+  margin-bottom: 2rem;
+}
+
+.price__card2 h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.price__card2 h3 {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--white);
+  border-bottom: 2px solid var(--white);
+}
+
+.price__card2 p {
+  margin-bottom: 0.75rem;
+  color: var(--white);
+}
+
+.price__card2 p i {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+  .mod1 {
+    margin-left: -340px;
+    width: 355px;
+    margin-top: 250px;
+    margin-bottom: -35px;
+  }
+
+  .mod2 {
+    margin-left: -1000px;
+    margin-top: -700px;
+    width: 355px;
+  }
+
+
   .explore__grid {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -738,6 +837,8 @@ footer2 .sponsors img:hover {
     text-align: center;
   }
 }
+
+
 
 
 .ph--first-aid-bold {
