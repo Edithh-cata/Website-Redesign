@@ -515,7 +515,8 @@ footer2 .sponsors img:hover {
   margin-bottom: 1rem;
   color: var(--text-light);
   transition: 0.3s;
-  margin-left: 500px;
+  margin-left: -430px;
+  margin-top: -70px;
 }
 
 .footer__col > a:hover {
