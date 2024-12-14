@@ -1239,6 +1239,25 @@ footer2 .sponsors img:hover {
     border: 2px solid transparent;
     border-radius: 10px;
     transition: 0.3s;
+    margin-bottom: 20px;
+  }
+
+  .explore__card2 {
+    padding: 1rem;
+    background-color: var(--primary-color-light);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+
+  .explore__card3 {
+    padding: 1rem;
+    background-color: var(--primary-color-light);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 20px;
   }
   
   .explore__card1:hover {
